@@ -14,9 +14,11 @@ namespace Lab13_Server
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
+            /*Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MWindow());
+            Application.Run(new MWindow());*/
+            Mail mail = new Mail();
+            mail.sendMail();
         }
     }
 }

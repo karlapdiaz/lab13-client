@@ -48,6 +48,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mail.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="MWindow.cs">
       <SubType>Form</SubType>
