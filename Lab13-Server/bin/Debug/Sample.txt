@@ -1,0 +1,88 @@
+KeyPress:  d 
+
+KeyUp: D 
+
+KeyPress:  c 
+
+KeyUp: C 
+
+KeyPress:  s 
+
+KeyUp: S 
+
+KeyPress:  d 
+
+KeyPress:  s 
+
+KeyUp: D 
+
+KeyPress:  a 
+
+KeyUp: S 
+
+KeyPress:  d 
+
+KeyUp: A 
+
+KeyPress:  a 
+
+KeyUp: D 
+
+KeyUp: A 
+
+KeyPress:  d 
+
+KeyUp: D 
+
+KeyPress:  w 
+
+KeyPress:  a 
+
+KeyUp: W 
+
+KeyPress:  e 
+
+KeyUp: E 
+
+KeyPress:  w 
+
+KeyUp: W 
+
+KeyUp: A 
+
+KeyPress:  e 
+
+KeyPress:  w 
+
+KeyPress:  a 
+
+KeyUp: E 
+
+KeyUp: W 
+
+KeyUp: A 
+
+KeyPress:  w 
+
+KeyPress:  e 
+
+KeyUp: E 
+
+KeyUp: W 
+
+KeyPress:  w 
+
+KeyPress:  a 
+
+KeyPress:  e 
+
+KeyUp: A 
+
+KeyUp: W 
+
+KeyUp: E 
+
+KeyPress:   
+
+KeyUp: Escape 
+

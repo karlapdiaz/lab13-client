@@ -14,11 +14,14 @@ namespace Lab13_Server
         [STAThread]
         static void Main()
         {
-            /*Application.EnableVisualStyles();
+            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MWindow());*/
-            Mail mail = new Mail();
+            Application.Run(new MWindow());
+            /*Mail mail = new Mail();
             mail.sendMail();
+            ProcessClient process = new ProcessClient();
+            process.ListAllApplications();
+            process.killProcess("WINWORD");*/
         }
     }
 }
