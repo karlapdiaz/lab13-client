@@ -46,7 +46,7 @@ namespace Lab13_Server
                         {
                             //c.Send(theprocess.ProcessName+" "+theprocess.Id);
                             c.Send(theprocess.ProcessName);
-                            c.Send("");
+                            c.Listen();
                         }
                         c.Send("FIN");                        
                         string input = c.Listen();                        
