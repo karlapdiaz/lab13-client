@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Mail;
 using System.Text;
@@ -9,22 +10,22 @@ namespace Lab13_Server
 {
     class Mail
     {
-        public void sendMail() {
+        public void sendMail(int i, String address) {
             try
             {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
                 mail.From = new MailAddress("karlapdiazpadilla@gmail.com");
-                mail.To.Add("karlitapatt.94@gmail.com");
+                mail.To.Add(address);
                 mail.Subject = "Test Mail - 1";
                 mail.Body = "mail with attachment";
 
                 System.Net.Mail.Attachment attachment;
-                attachment = new System.Net.Mail.Attachment("log.txt");
+                attachment = new System.Net.Mail.Attachment("Sample"+i+".txt");
                 mail.Attachments.Add(attachment);
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("karlapdiazpadilla@gmail.com", "");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("karlapdiazpadilla@gmail.com", "canek=1301");
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);

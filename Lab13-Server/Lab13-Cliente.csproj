@@ -48,6 +48,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
     <Compile Include="ProcessClient.cs" />
     <Compile Include="Mail.cs" />
     <Compile Include="Logger.cs" />

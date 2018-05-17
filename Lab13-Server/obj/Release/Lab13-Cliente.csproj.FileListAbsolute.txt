@@ -1,0 +1,12 @@
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\bin\Release\Lab13-Server.exe.config
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\bin\Release\Lab13-Server.exe
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\bin\Release\Lab13-Server.pdb
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\bin\Release\WQLUtil.dll
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\bin\Release\WQLUtil.pdb
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13-Cliente.csprojResolveAssemblyReference.cache
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13_Server.MWindow.resources
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13_Server.Properties.Resources.resources
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13-Cliente.csproj.GenerateResource.Cache
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13-Cliente.csproj.CoreCompileInputs.cache
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13-Server.exe
+C:\Users\PWalls\Documents\GitHub\lab13-client\Lab13-Server\obj\Release\Lab13-Server.pdb

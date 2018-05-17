@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,12 +18,7 @@ namespace Lab13_Server
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MWindow());
-            /*Mail mail = new Mail();
-            mail.sendMail();
-            ProcessClient process = new ProcessClient();
-            process.ListAllApplications();
-            process.killProcess("WINWORD");*/
+            Application.Run(new MWindow());           
         }
     }
 }
