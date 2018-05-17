@@ -49,9 +49,25 @@ namespace Lab13_Server
                             c.Listen();
                         }
                         c.Send("FIN");                        
-                        string input = c.Listen();                        
-                        process.killProcess(input);
-                        //break;
+                        
+
+                        
+                        while (true)
+                        {
+                            string input = c.Listen();
+                            
+                            if (input == "FIN")
+                            {
+                                break;
+                            }
+                            else
+                            {
+                                process.killProcess(input);
+                            } 
+
+                        }
+                       
+                        
                     }
                     else
                     {

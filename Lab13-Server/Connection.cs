@@ -10,7 +10,7 @@ namespace Lab13_Server
 {
     class Connection        
     {
-        String server = "127.0.0.1";
+        String server = "192.168.0.16";
         NetworkStream stream;
         TcpClient client;
         private byte[] data;
