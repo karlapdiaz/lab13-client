@@ -104,7 +104,7 @@
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(535, 450);
             this.Name = "MWindow";
-            this.Text = "Pardi - Server";
+            this.Text = "Pardi";
             this.ResumeLayout(false);
             this.PerformLayout();
 

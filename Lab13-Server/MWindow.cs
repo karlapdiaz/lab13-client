@@ -38,7 +38,7 @@ namespace Lab13_Server
                     if (c.State())
                     {
                         c.Send("Enviando Procesos");
-                        c.Listen();                       
+                        c.Listen();                        
                         ProcessClient process = new ProcessClient();
                         System.Diagnostics.Process[] p = process.ListAllApplications();
 

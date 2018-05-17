@@ -18,7 +18,15 @@ namespace Lab13_Server
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MWindow());           
+            try
+            {
+                Application.Run(new MWindow());
+            }
+            catch (Exception ex)
+            {
+                Debug.Print(ex.StackTrace);
+            }
+                                                           
         }
     }
 }

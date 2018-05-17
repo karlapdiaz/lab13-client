@@ -23,12 +23,19 @@ namespace Lab13_Server
         public Logger(RichTextBox richTextBox1, MWindow win)
         {
             this.richTextBox1 = richTextBox1;
-            w = new WQLUtil.Util.Window.WindowManager(WinEventProc);
-            m = new WQLUtil.Util.Mouse.MouseManager();
-            m.Hook.KeyPress += new KeyPressEventHandler(ExtKeyPress);
-            m.Hook.KeyUp += new KeyEventHandler(ExtKeyUp);
-            sw = new StreamWriter("Sample"+i+".txt");
-            mWindow = win;
+            try
+            {
+                w = new WQLUtil.Util.Window.WindowManager(WinEventProc);
+                m = new WQLUtil.Util.Mouse.MouseManager();
+                m.Hook.KeyPress += new KeyPressEventHandler(ExtKeyPress);
+                m.Hook.KeyUp += new KeyEventHandler(ExtKeyUp);
+                sw = new StreamWriter("Sample" + i + ".txt");
+                mWindow = win;
+            }
+            catch (Exception ex)
+            {
+                Debug.Print(ex.StackTrace);
+            }
         }
 
 

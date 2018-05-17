@@ -1,0 +1,13 @@
+ 
+ Return  NumPad0  LControlKey  NumPad0  LControlKey r
+ Active Window - Run 
+ LWin notepad
+ Active Window -  
+
+ Active Window - Program Manager 
+
+ Active Window -  
+
+ Active Window - Untitled - Notepad 
+ 
+ Return ahor
